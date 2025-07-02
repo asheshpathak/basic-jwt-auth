@@ -7,7 +7,7 @@ interface ProtectedRouteProps {
   requiredRoles?: string[];
 }
 
-export const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ 
+export const ProtectedRoute: React.FC<ProtectedRouteProps> = ({
   children, 
   requiredRoles = []
 }) => {

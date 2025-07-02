@@ -22,7 +22,6 @@ const users = [
     id: 1,
     email: 'admin@example.com',
     password: '$2a$10$amOoEqutrmUgTJpYQV44J.VRd6fa0cKiJ2qVE0L14l/SV1dRyMVy.',
-    // password: 'admin123',
     name: 'Admin User',
     roles: ['admin', 'user']
   },
